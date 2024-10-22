@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "indexify-detect-image-objects"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Boudreau <boudreau.benjamin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+indexify = "^0.2.17"
+ultralytics = "^8.3.19"
+numpy = "^2.1.2"
+cv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
